@@ -1,0 +1,279 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Dark Theme */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #1f1f1f;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #03dac6;
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #bb86fc;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  text-decoration: underline;
+  color: #03dac6;
+}
+
+/* Contact Section */
+.contact-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.contact-card {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  max-width: 400px;
+  text-align: left;
+}
+
+.contact-card h2 {
+  color: #03dac6;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contact-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.contact-list a {
+  color: #bb86fc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #1f1f1f;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make the body responsive */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #333;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.contact-list li {
+    margin: 10px 0;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+    /* Stack header elements vertically */
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Stack nav links vertically */
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    /* Adjust contact container */
+    .contact-container {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* Even Smaller Screens */
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .contact-container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+/* Main Text Styling */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Change the main text color */
+h1, h2, h3 {
+    color: #ffcc00; /* Bright yellow */
+}
+
+p, li, a {
+    color: #ff8c00; /* Orange */
+}
+
+/* Contact Section Text */
+.contact-card h2 {
+    color: #03dac6; /* Light Cyan */
+}
+
+.contact-card p {
+    color: #ff4081; /* Pink */
+}
+
+.contact-list li {
+    color: #bb86fc; /* Light Purple */
+}
+
+.contact-list a {
+    color: #ffcc00; /* Bright Yellow */
+}
+
+.contact-list a:hover {
+    color: #03dac6; /* Light Cyan */
+}
+
+/* Footer */
+footer p {
+    color: #ff8c00; /* Orange */
+}
